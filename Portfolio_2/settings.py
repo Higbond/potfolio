@@ -13,7 +13,7 @@ SECRET_KEY = '@!**=(x!nvac7)4%=3qgvv#ps*!ioynl)*f*3=koc@k-ud_q0s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['potfolio-b-v.herokuapp.com']
 
 
 # Application definition

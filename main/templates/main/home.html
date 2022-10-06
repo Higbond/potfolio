@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ title }}</title>
+  {% load staticfiles %}
+  <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" type="text/css">
+</head>
+<body>
+  <div class="panel">
+		<h1 class="heading">Портфолио</h1>
+		<h3 class="heading">ФИО</h3>
+			<p>Информация про вас, напишите здесь небольшой текст.</p>
+  		<ul class="text-left">
+  		  <li><b>Телефон:</b> +0(000) 000 - 00 - 00</li>
+  		  <li><b>Email:</b> example@mail.ru</li>
+  		</ul>
+
+	    <div class="row portfolio">
+	      <div class="col-md-6">
+	        <img src="https://itproger.com/img/userAnketa.png" class="userAnketa" alt="Фото">
+	      </div>
+	      <div class="col-md-6">
+	        <p class="left-text">Некоторые из моих проектов:</p>
+	        <ol class="text-left cl-effect-7">
+	          <li><a href="#" title="Посетить сайт">JavaScript веб сайт</a></li>
+	          <li><a href="#" title="Посетить сайт">Веб блог на Джанго</a></li>
+	          <li><a href="#" title="Посетить сайт">Сайт с покупками Django</a></li>
+	          <li><a href="#" title="Посетить сайт">Впишите ещё что-то</a></li>
+	        </ol>
+	      </div>
+	    </div>
+
+	</div>
+</body>
+</html>
